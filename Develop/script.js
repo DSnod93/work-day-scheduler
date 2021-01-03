@@ -12,15 +12,15 @@ function timeTracker() {
 
     // loop over time blocks
     $(".time-block").each(function() {
-    var currentHour = parseInt($(this).attr("id").split("hour")[1]);
+    var blockHour = parseInt($(this).attr("id").split("hour")[1]);
 
     //color code each time block to indicate if it is past, present, or future
-    if (currentHour < currentHour) {
+    if (blockHour < currentHour) {
         $(this).addClass("past");
         $(this).removeClass("future");
         $(this).removeClass("present");
     }
-    else if (currentHour === currentHour) {
+    else if (blockHour === currentHour) {
         $(this).removeClass("past");
         $(this).addClass("future");
         $(this).removeClass("present");
