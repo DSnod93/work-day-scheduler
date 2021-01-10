@@ -1,9 +1,17 @@
+// load html and css first
 $(document).ready(function () {
 
 // Display current day at top of calendar using moment.js
 $("#currentDay").text(moment().format("dddd, MMMM Do"));
  
+$(".saveBtn").on("click", function() {
+    // get values
+    console.log(this);
 
+
+    localStorage.setItem(); 
+    
+})
 
 function timeTracker() {
 
@@ -32,10 +40,9 @@ function timeTracker() {
     }
 })
 
-}
 // repeats itself
 timeTracker();
-})
+};
 
 
 // user can enter an event when clicking time block
