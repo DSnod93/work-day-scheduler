@@ -13,4 +13,4 @@ An application that uses Third Party API's to allow storage of daily tasks.
 ## Access Here
 
 
-![alt text](assets/images/snippet.jpg);
+<img src ="assets/images/snippet.JPG"/>
