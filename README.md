@@ -13,4 +13,4 @@ An application that uses Third Party API's to allow storage of daily tasks.
 ## Access Here
 https://dsnod93.github.io/work-day-scheduler/
 
-![alt text](assets/images/snippet.jpg);
+<img src ="assets/images/snippet.JPG"/>
